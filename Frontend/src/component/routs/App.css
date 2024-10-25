@@ -1,0 +1,78 @@
+.company-name{
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0 .2rem;
+}
+
+.header{
+  z-index: 10 !important;
+}
+.inner-container{
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between !important;
+  gap: 1rem;
+
+}
+.header-content{
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: end !important;
+}
+
+.nav-link{
+  padding: 3px 4px !important;
+}
+
+.header-content li:hover{
+  background-color: rgb(228, 234, 239);
+  border-radius: 10px;
+}
+
+.pink-heading{
+  color: rgb(241, 129, 228);
+}
+.input-banner{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  border: 1px solid gray;
+  width: 100%;
+  padding: 3px 4px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.input-banner .input{
+  border: none;
+  width: 90%;
+}
+
+.input-banner .input:focus {
+  outline: none;
+}
+.navbar-bg{
+  background-color: rgba(244, 237, 237, 0.879) !important;
+  transition: all .2s ease-in-out; 
+  padding-top: 20px !important;
+}
+.free-book-heading p{
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.carousel-control-next-icon ,.carousel-control-prev-icon  {
+  background-color: black; /* Set icon background to black */
+}
+.course{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin:10px;
+}
+
+ .login-btn{
+  height:  25px !important;
+  line-height:25px !important;
+  min-height: 35px !important;
+  color: white !important;
+} 

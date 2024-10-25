@@ -1,0 +1,11 @@
+.card{
+  text-align: start   ;
+}
+.card-text{
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.MySwiperComponent{
+  margin: 20px;
+}
